@@ -1,0 +1,49 @@
+#settings {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#settings h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #e74c3c;
+}
+
+#settings h3 {
+    margin-top: 20px;
+    color: #333;
+}
+
+#settings label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#settings input, #settings select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#settings button {
+    margin-top: 20px;
+    padding: 12px;
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#settings button:hover {
+    background: #c0392b;
+}
