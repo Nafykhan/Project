@@ -1,0 +1,74 @@
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+
+
+/* Main Content */
+#manage-payments {
+    margin-left: 250px;  /* Push content to the right of the sidebar */
+    padding: 20px;
+    width: calc(100% - 250px);  /* Make the content take up the remaining width */
+    overflow: auto;  /* Allow content to scroll if necessary */
+}
+
+/* Manage Payments Table */
+#manage-payments .container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+table td {
+    background-color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Action Buttons */
+.btn-delete {
+    background-color: #e74c3c;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-delete:hover {
+    background-color: #c0392b;
+}
